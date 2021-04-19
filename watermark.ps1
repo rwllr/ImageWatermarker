@@ -8,7 +8,7 @@ $extensions = "*.jpg";															#Which filetypes to watermark
 $newerThan = 7;																	#Number of days, older than this the images will be ignored to save time
 $exifIdentifier = "WaterMarked";												#The value to identify watermarked images in EXIF
 $watermarkImage = "C:\ThisScriptLocation\watermark.png";						#The watermark image to add to the images
-$logFile = "C:\ThisScriptLocation\logs\ " + $(Get-Date -format d) + ".txt"		#Error log file
+$logFile = "C:\ThisScriptLocation\logs\ " + $(Get-Date -format YY-MM-DD-hhmmss) + ".txt"		#Error log file
 $tmpFile = "C:\tmp_watermarked";												#Filename and dir to temporary file
 #------------------------------------------------------
 
