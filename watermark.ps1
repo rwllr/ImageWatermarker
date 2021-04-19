@@ -1,6 +1,7 @@
 # Created by Tony Gustafsson
 # Version 1.0
 # Release date 2012-05-03
+# Update 
 
 #--------------User defined varables-------------------
 $imagesPath = "C:\bilder\Produkter\*";											#The path of images to watermark
